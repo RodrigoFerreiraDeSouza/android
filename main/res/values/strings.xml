@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PATODOCE</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_amora">amora</string>
+    <string name="title_activity_goiaba">goiaba</string>
+    <string name="title_activity_caju">caju</string>
+</resources>

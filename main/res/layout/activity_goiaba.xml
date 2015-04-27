@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rodrigo.patodoce.goiaba">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView3" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingTop="40dp"
+            android:paddingBottom="40dp"
+            android:background="#DC143C">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Doce de Goiaba"
+                android:id="@+id/textView5"
+                android:gravity="center_horizontal"
+                android:textSize="40dp"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Ingredientes"
+                android:id="@+id/textView6"
+                android:gravity="center_horizontal"
+                android:textSize="33dp"
+                android:paddingTop="10dp"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
